@@ -1,6 +1,7 @@
 header {
-    background-color: #151d43;
-    color: white;
-    border-bottom: 5px solid #c52d3c;
+    background-color: aqua;
+    color: black;
+    border-bottom: 0.5rem dashed black;
     padding: 25px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
