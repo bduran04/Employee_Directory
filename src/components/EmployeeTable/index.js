@@ -8,7 +8,7 @@ const EmployeeTable = (props) => {
         <tr>
           <th scope="col">Image</th>
           <th scope="col" data-field="name" data-sortable="true">
-            <span onClick={props.sort}>
+            <span class="name" onClick={props.sort}>
               Name
             </span>
           </th>

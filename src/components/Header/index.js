@@ -7,7 +7,7 @@ const Header = () => {
       <h1 className="text-center">Employee Directory</h1>
       <p className="text-center">
         Use the search box to narrow
-        your results.
+        your results or sort alphabetically by employee name.
       </p>
     </header>
   );
