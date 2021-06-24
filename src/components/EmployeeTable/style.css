@@ -1,4 +1,3 @@
-/* Show pointer to indicate column header is clickable */
 thead th span{
     cursor: pointer;
 }

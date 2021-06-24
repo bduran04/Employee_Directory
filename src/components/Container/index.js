@@ -20,6 +20,24 @@ class EmployeesContainer extends Component {
     };
   }
 
+  handleInputChange = (e) => {
+    const filteredEmployees = this.state.employees.filter((person) => {
+      return person.name.first.toLowerCase().includes(e.target.value.toLowerCase()) ||
+        person.name.last.toLowerCase().includes(e.target.value.toLowerCase())
+    })
+    this.setState({
+      search: e.target.value,
+      filteredEmployees
+    })
+  };
+
+  handleSort = () => {
+    const sortedEmployees = this.state.filteredEmployees.sort((a, b) => a.name.first > b.name.first ? 1 : -1)
+    this.setState({
+      filteredEmployees: sortedEmployees
+    })
+  }
+
   componentDidMount() {
     API.getEmployees()
       .then((res) =>
@@ -46,11 +64,13 @@ class EmployeesContainer extends Component {
       <>
         <SearchBar
           value={this.state.search}
+          inputChange={this.handleInputChange}
         />
         <div className="container mt-4">
           <EmployeeTable
             state={this.state}
             formatDate={this.formatDate}
+            sort={this.handleSort}
           />
         </div>
       </>
