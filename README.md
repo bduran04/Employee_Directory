@@ -6,7 +6,8 @@ For this assignment, you'll create a employee directory with React. This assignm
 
 ## User Story
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+Deployed App: https://bduran04.github.io/Employee_Directory/
+ ![This is the gif for the app](src/assets/employee_directory.gif)
 
 ## Business Context
 
@@ -49,6 +50,7 @@ Follow these guidelines for committing:
 ## Submission on BCS
 
 You are required to submit the following:
+blah blaj 
 
 * the URL to the deployed application
 
