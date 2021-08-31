@@ -3,12 +3,13 @@
   ## Table of Contents
 
 1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [License](#license)
-5. [Contributing](#contributing)
-6. [Tests](#tests)
-7. [Questions](#questions)
+2. [Technologies Used](#technologies)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [License](#license)
+6. [Contributing](#contributing)
+7. [Tests](#tests)
+8. [Questions](#questions)
 
 ## [Description](#description)
 This application is an employee directory that displays a list of employees and enables the user to sort the table alphabetically by employee name as well as filter based on the search bar input. This application utilizes React as the framework and uses the Random User API to obtain the employee list. 
@@ -16,6 +17,11 @@ This application is an employee directory that displays a list of employees and 
 Deployed App: https://bduran04.github.io/Employee_Directory/
 
 ![This is the gif that displays functionality](src/assets/employee_directory.gif)
+
+## [Technologies Used](#technologies)
+* React.js
+* Random User API
+* axios
 
 ## [Installation](#installation)
 To install necessary dependencies, run the following command: npm install 
